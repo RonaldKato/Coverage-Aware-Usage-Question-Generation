@@ -1,11 +1,5 @@
 # CA-UQG: Coverage-Aware Usage Question Generation
-<p align="center">
-  <img
-    src="ca_uqg_schema_github.png"
-    alt="CA-UQG Object and Data Schema"
-    width="100%"
-  />
-</p>
+<img width="100%" height="221" alt="Screenshot 2026-09-15 at 23 11 49" src="https://github.com/user-attachments/assets/c833d008-2375-4d25-9942-fa9a15048153" />
 
 Companion code for the paper *"Coverage-Aware Usage Question Generation:
 Closing the Recall and Diversity Gap in Conversational Recommender
