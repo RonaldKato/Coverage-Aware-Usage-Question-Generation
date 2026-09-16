@@ -1,4 +1,11 @@
 # CA-UQG: Coverage-Aware Usage Question Generation
+<p align="center">
+  <img
+    src="ca_uqg_schema_github.png"
+    alt="CA-UQG Object and Data Schema"
+    width="100%"
+  />
+</p>
 
 Companion code for the paper *"Coverage-Aware Usage Question Generation:
 Closing the Recall and Diversity Gap in Conversational Recommender
@@ -81,28 +88,12 @@ data/
   synthetic_reviews.jsonl generated corpus (667 sentences)
   selected_questions_sample.csv   qualitative examples per config
   per_category_budget8.csv        per-category metric breakdown
-tables/
-  table1_dataset_stats.csv
-  table2_main_results.csv
-  table3_taxonomy_ari.csv
-  table4_budget_sweep.csv
-figures/
-  fig1_pipeline_architecture.png       high-level 5-stage pipeline diagram
-  fig2_coverage_vs_budget.png          Facet Recall / Tail Coverage vs. budget
-  fig3_per_category_tail_coverage.png  baseline vs. CA-UQG, per category
-  fig4_vendi_diversity.png             Vendi Score by configuration
-  fig5_bikes_usage_space_map.png       baseline vs. CA-UQG selection overlay
-  fig6_object_schema.png               UML-style object/data schema diagram
-  fig7_annotated_extraction.png        labeled P1-P7 span-extraction examples
-  fig8_cluster_confusion_bikes.png     induced-cluster x gold-facet heatmap
-  fig9_labeled_usage_space_bikes.png   usage-space map with facet-name labels
-  fig10_pipeline_funnel.png            object-count funnel through all 5 stages
+
 ```
 
 ## Honesty / scope note
-This is an independently produced research extension exercise, not an
-official follow-up by the original authors and not a peer-reviewed
-publication. Numbers are computed on the synthetic corpus described
+This is an independently produced research extension exercise. 
+Numbers are computed on the synthetic corpus described
 above; see the paper's Limitations section for what would need to change
 (real review corpus, learned embeddings, neural question generation,
 human evaluation) before these findings could be claimed on the original
